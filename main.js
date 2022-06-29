@@ -6,12 +6,12 @@
 
             let Comedy = [
                 {
-                    title:"Gente Grande 2",
+                    title:"Great  people",
                     director:"Dennis Dugan",
                     year:2013
                 },
                 {
-                    title:"Operação Supletivo - Agora Vai!",
+                    title:"Operation Supplementary - Now Go!",
                     director:"Malcolm D. lee",
                     year:2018
                 },
@@ -25,17 +25,17 @@
 
             let action = [
                 {
-                    title:"Alerta Vermelho",
+                    title:"Red alert",
                     director:"Rawson Marshall thurber",
                     year:2021
                 },
                 {
-                    title:"Jogador Nº 1",
+                    title:"Player No. 1",
                     director:"Steven spielberg",
                     year:2018
                 },
                 {
-                    title:"O Projeto Adam",
+                    title:"The Adam Project",
                     director:"Shawn levy",
                     year:2022
                 }
@@ -45,17 +45,17 @@
 
             let Fantasy = [
                 {
-                    title:"Homem-Aranha: Sem Volta para Casa",
+                    title:"Spide-man:No way home",
                     director:"Jon watts",
                     year:2021
                 },
                 {
-                    title:"Shang-chi e a Lenda dos Dez Anéis",
+                    title:"Shang-chi and the Legend of the Ten Rings",
                     director:"Destin crestton",
                     year:2021
                 },
                 {
-                    title:"Sonic: O Filme",
+                    title:"Sonic: The Movie",
                     director:"Jef fowler",
                     year:2020
                 }
@@ -66,7 +66,7 @@
 
 //Escolha uma variável e insira uma condição para ela, (condição de sua escolha), com a seguinte mensagem ao console: 
 
-if(action[0].title == "Alerta Vermelho" ){
+if(action[0].title == "Red alert " ){
     console.log(`MY FAVORIT MOVIE IS ${action[0].title}`);
 }else{
     console.log(`${action[0].title} NOT EVEN 5 STARS`)
